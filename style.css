@@ -1,0 +1,79 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(to left,green,white);
+
+}
+
+
+h1{
+    margin: 10px;
+}
+
+
+.input-grid,.js-div
+{
+    display: grid;
+    grid-template-columns: 250PX 150PX 150px 100px;
+    gap: 10px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.input-name,.input-date,
+.input-time
+{
+    padding: 10px;
+    font: inherit;
+    border: 2px solid black;
+}
+
+.button-add
+{
+    background-color: green;
+    border: none;
+    color: #fff;
+}
+
+.del-but
+{
+    color: white;
+    background-color: rgb(211, 8, 8);
+    border: none;
+    align-items: stretch;
+}
+
+p,button
+{
+    padding: 10px;
+}
+p
+{
+    
+    font-size: 1.3rem;
+}
+
+.input-grid
+{
+    margin:0;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-bottom:2px dashed black  ;
+}
+section
+{
+    border: 2px solid black;
+    padding: 0;
+    padding-bottom: 30px;
+    margin-left: 15px;
+    width: 730px;
+}
